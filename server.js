@@ -31,11 +31,14 @@ let pos= { status: text }
 var stream = T.stream('user')
 
 stream.on('follow',followed)
+
 function followed (event) {
+    console.log('follow event....')
    let name=event.source.name;
    let screenName=event.source.screen_name;
     twites(`@${screenName} thank you for followed me`)
   }
+
 
   
 
