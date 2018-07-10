@@ -1,0 +1,23 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start":"nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghassanooooo/twitterBot.git"
+  },
+  "author": "Ghassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghassanooooo/twitterBot/issues"
+  },
+  "homepage": "https://github.com/Ghassanooooo/twitterBot#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
